@@ -116,14 +116,14 @@ body{
     padding: 30px;
     background-color: #E6E6E6;
     color: black;
-    height: 130px;
+    height: auto;
     border: #cccccc solid 1px;
 
 }
 
 #fover {
     width: 300px;
-    height: auto;
+    height: 300px;
     padding: 40px 15px 0px 15px;
     background-color: #35424A;
     color: white;
