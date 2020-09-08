@@ -131,7 +131,7 @@ body{
 
 
 footer{
-    height: 70px;
+    height: auto;
     border-top: 3px solid purple;
     text-align: center;
     padding-top: 40px;
