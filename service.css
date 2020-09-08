@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial;
+}
+.WebDesign {
+    border-bottom: 2px solid rgb(169, 80, 139);
+    
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #35424A;
+    
+}
+
+#clarus{
+    margin-left: 150px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+#clarus span{
+    color: #a9508b;
+    font-weight: bold;
+}
+#adress  {
+    margin-right: 140px;
+}
+#adress #abt{
+    color: #a9508b;
+    font-weight: bold;
+}
+#adress a  {
+    margin-right: 30px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+#adress a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+#adress #abt:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+.subscribe {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #35424A;
+    
+}
+
+#newsletter{
+    margin-left: 150px;
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+#email  {
+    margin-right: 140px;
+}
+
+#emails{
+    padding-right: 80px;
+    margin-right: 0px;
+    height:34px ;
+  
+}
+#subs{
+    padding-right: auto;
+    margin-right: 165px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    background:  #a9508b;
+    color: #ffffff;
+    
+}
+
+.wwd {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4F4F4;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 120px;
+  
+}
+#ab{
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+#one,#three,#two {
+    margin-top: 10px;
+    margin-bottom: -6px;
+    padding: 30px;
+    background-color: #E6E6E6;
+    color: black;
+    height: 130px;
+    border: #cccccc solid 1px;
+
+}
+
+#fover {
+    width: 300px;
+    height: auto;
+    padding: 40px 15px 0px 15px;
+    background-color: #35424A;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 320px;
+    margin-right: 140px;
+    margin-left: 100px;
+}
+
+#wedo{
+    padding-bottom: 20px;
+}
+.button_1 {
+    height: 38px;
+    background:  #a9508b;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+footer{
+    height: 90px;
+    border-top: 3px solid purple;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #FFFAF0;
+}
+
+#name ,#email{
+    padding-right: 100px;
+    height: 25px;
+}
