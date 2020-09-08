@@ -12,6 +12,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #35424A;
+    flex-wrap: wrap;
     
 }
 
@@ -106,7 +107,7 @@ body{
 .wwd {
     display: flex;
     background-color: #F4F4F4;
-    height: 290px;
+    height: auto;
     justify-content: center;
    
     
