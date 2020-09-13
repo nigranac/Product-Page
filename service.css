@@ -7,18 +7,18 @@ body{
 }
 .WebDesign {
     border-bottom: 2px solid rgb(169, 80, 139);
-    
-    height: 100px;
+    height: 16vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #35424A;
+    flex-wrap: wrap;
     
 }
 
 #clarus{
-    margin-left: 150px;
-    font-size: 30px;
+    margin-left: 10vw;
+    font-size: 31px;
     color: white;
     font-weight: bolder;
     
@@ -29,14 +29,15 @@ body{
     font-weight: bold;
 }
 #adress  {
-    margin-right: 140px;
+    
+    margin-right: 9vw;
 }
-#adress #abt{
+#adress #check{
     color: #a9508b;
     font-weight: bold;
 }
 #adress a  {
-    margin-right: 30px;
+    margin-right: 2vw;
     font-size: 17px;
     color: white;
     text-decoration: none;
@@ -45,14 +46,14 @@ body{
     color: #cccccc;
     font-weight: bold;
 }
-#adress #abt:hover{
+#adress #check:hover{
     color: #cccccc;
     font-weight: bold;
 }
 
 
 .subscribe {
-    height: 100px;
+    height: 16vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,28 +62,25 @@ body{
 }
 
 #newsletter{
-    margin-left: 150px;
+    
+    margin-left: 11vw;
     font-size: 22px;
     color: white;
     font-weight: bolder;
     
 }
 
-#email  {
-    margin-right: 140px;
-}
 
 #emails{
-    padding-right: 80px;
-    margin-right: 0px;
-    height:34px ;
+    
+    padding-right: 6vw;
+    height:5vh ;
   
 }
 #subs{
-    padding-right: auto;
-    margin-right: 165px;
-    height: 40px;
-    width: 100px;
+    margin-right: 10vw;
+    height: 6vh;
+    width: auto;
     text-align: center;
     background:  #a9508b;
     color: #ffffff;
@@ -99,21 +97,20 @@ body{
 .about {
     display: flex;
     flex-direction: column;
-    margin-top: 0;
-    margin-left: 120px;
+    margin-left: 10vw;
   
 }
 #ab{
     font-weight: bolder;
     font-size: 18px;
-    margin-top: 20px;
+    margin-bottom: 2vh;
+    margin-top: 3vh;
 }
 
 
 #one,#three,#two {
-    margin-top: 10px;
-    margin-bottom: -6px;
-    padding: 30px;
+    margin-top: 1vh;
+    padding: 6vh 2vw;
     background-color: #E6E6E6;
     color: black;
     height: auto;
@@ -122,28 +119,32 @@ body{
 }
 
 #fover {
-    width: 300px;
-    height: 300px;
-    padding: 40px 15px 0px 15px;
+    width: 33vw;
+    height: 45vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+
     background-color: #35424A;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 320px;
-    margin-right: 140px;
-    margin-left: 100px;
+    margin-top: 3vh;
+    margin-right: 10vw;
+    margin-left: 4vw;
+    
 }
 
 #wedo{
-    padding-bottom: 20px;
+    padding-bottom: 2vh;
 }
 .button_1 {
-    height: 38px;
+    height: 6vh;
     background:  #a9508b;
     border: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 15px;
-    margin-top: 5px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
     color: #ffffff;
 }
 
@@ -151,11 +152,129 @@ footer{
     height: auto;
     border-top: 3px solid purple;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
     background-color: #FFFAF0;
 }
 
 #name ,#email{
-    padding-right: 100px;
-    height: 25px;
+    padding-right: 7vw;
+    height: 4vh;
+    width: 12vw;
+}
+#feedback {
+    width: 19vw;
+}
+
+@media only screen and (max-device-width: 766px) and (min-device-width: 741px){    
+    .subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #35424A;
+}
+#newsletter{
+    margin-left: 0;
+    font-size: 22px;
+    color: white;
+}
+
+
+#emails{
+    padding-right: 0;
+    height:5vh ;
+  
+}
+#subs{
+    margin-right: 0;
+    height: 6vh;
+    width:100px;
+    background:  #a9508b;
+    color: #ffffff;
+    
+}
+}
+@media only screen and (max-device-width: 741px) and (min-device-width: 364px){
+    .WebDesign {
+        border-bottom: 2px solid rgb(169, 80, 139);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    }
+    #clarus{
+        margin-left: 0;        
+    }
+    #adress  {
+        margin-right: 0;
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #35424A;
+    }
+    
+    #newsletter{
+        margin-left: 0;
+        font-size: 22px;
+        color: white;
+    }
+    
+    
+    #emails{
+        padding-right: 0;
+        height:5vh ;
+      
+    }
+    #subs{
+        margin-right: 0;
+        height: 6vh;
+        width:100px;        
+    }
+ 
+}
+@media only screen and (max-device-width: 363px) and (min-device-width: 100px){
+    .WebDesign {
+        border-bottom: 2px solid rgb(169, 80, 139);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    }
+    #clarus{
+        margin-left: 0; 
+        font-size: 20px;       
+    }
+    #adress  {
+        margin-right: 0;
+        font-size: 12px;
+    }
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: #35424A;
+    }
+    
+    #newsletter{
+        margin-left: 0;
+        font-size: 22px;
+        color: white;
+    }
+    
+    
+    #emails{
+        padding-right: 0;
+        height:3vh ;
+      
+    }
+    #subs{
+        margin-right: 0;
+        height: 3vh;
+        width:100px; 
+    }
+   
 }

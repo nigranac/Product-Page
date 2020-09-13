@@ -7,7 +7,7 @@ body{
 }
 .WebDesign {
     border-bottom: 2px solid rgb(169, 80, 139);
-    height: 100px;
+    height: 16vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,8 +17,9 @@ body{
 }
 
 #clarus{
-    margin-left: 150px;
-    font-size: 30px;
+    
+    margin-left: 10vw;
+    font-size: 31px;
     color: white;
     font-weight: bolder;
     
@@ -29,14 +30,15 @@ body{
     font-weight: bold;
 }
 #adress  {
-    margin-right: 140px;
+    
+    margin-right: 9vw;
 }
-#adress #abt{
+#adress #check{
     color: #a9508b;
     font-weight: bold;
 }
 #adress a  {
-    margin-right: 30px;
+    margin-right: 2vw;
     font-size: 17px;
     color: white;
     text-decoration: none;
@@ -45,29 +47,38 @@ body{
     color: #cccccc;
     font-weight: bold;
 }
-#adress #abt:hover{
+#adress #check:hover{
     color: #cccccc;
     font-weight: bold;
 }
 
 .background {
-    height: 300px;
+    height: 45vh;
     background-image: url(./img/showcase.jpg);
     text-align:center ;
     color: #ffffff;
-    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 7vh;
+    padding-bottom: 12vh;
+    
+
 }
 .background h1 {
-    margin-top: 0;
-    font-size: 55px;
-    margin-bottom: 10px;
+    font-size: 54px;
+    margin-bottom: 4vh;
+
 }
 .background p {
     font-size: 20px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+
 }
 
 .subscribe {
-    height: 100px;
+    height: 16vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,28 +87,25 @@ body{
 }
 
 #newsletter{
-    margin-left: 150px;
+    
+    margin-left: 11vw;
     font-size: 22px;
     color: white;
     font-weight: bolder;
     
 }
 
-#email  {
-    margin-right: 140px;
-}
 
 #emails{
-    padding-right: 80px;
-    margin-right: 0px;
-    height:34px ;
+    
+    padding-right: 6vw;
+    height:5vh ;
   
 }
 #subs{
-    padding-right: auto;
-    margin-right: 165px;
-    height: 40px;
-    width: 100px;
+    margin-right: 10vw;
+    height: 6vh;
+    width: auto;
     text-align: center;
     background:  #a9508b;
     color: #ffffff;
@@ -108,8 +116,11 @@ body{
     display: flex;
     background-color: #F4F4F4;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+    padding-right: 9vw;
+    padding-left: 9vw;
    
     
 }
@@ -118,28 +129,202 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%; 
-    padding-top: 10px;
+    width: 30vw; 
+    padding-top: 1vh;
 }
 
 .about div {
-    margin:15px 40px 15px 40px
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    
+}
+.about h3 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
     
 }
  .lorem {
     text-align: center;
+    height: auto;
 }
 
 
 footer{
-    height: auto;
+    height: 10vh;
     border-top: 3px solid purple;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 7vh;
+    padding-bottom: 5vh;
     background-color: #FFFAF0;
 }
 
+@media only screen and (max-device-width: 766px) and (min-device-width: 741px){    
+    .subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #35424A;
+}
+#newsletter{
+    margin-left: 0;
+    font-size: 22px;
+    color: white;
+}
 
+
+#emails{
+    padding-right: 0;
+    height:5vh ;
+  
+}
+#subs{
+    margin-right: 0;
+    height: 6vh;
+    width:100px;
+    background:  #a9508b;
+    color: #ffffff;
+    
+}
+}
+@media only screen and (max-device-width: 741px) and (min-device-width: 364px){
+    .WebDesign {
+        border-bottom: 2px solid rgb(169, 80, 139);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    }
+    #clarus{
+        margin-left: 0;        
+    }
+    #adress  {
+        margin-right: 0;
+    }
+    .background h1 {
+        font-size: 38px;
+    }
+    .background p {
+        font-size: 14px;
+    }
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #35424A;
+    }
+    
+    #newsletter{
+        margin-left: 0;
+        font-size: 22px;
+        color: white;
+    }
+    
+    
+    #emails{
+        padding-right: 0;
+        height:5vh ;
+      
+    }
+    #subs{
+        margin-right: 0;
+        height: 6vh;
+        width:100px;
+
+        
+    }
+
+}
+@media only screen and (max-device-width: 363px) and (min-device-width: 100px){
+    .WebDesign {
+        border-bottom: 2px solid rgb(169, 80, 139);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    }
+    #clarus{
+        margin-left: 0; 
+        font-size: 20px;       
+    }
+    #adress  {
+        margin-right: 0;
+        font-size: 12px;
+    }
+    .background h1 {
+        font-size: 30px;
+    }
+    .background p {
+        font-size: 14px;
+    }
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: #35424A;
+    }
+    
+    #newsletter{
+        margin-left: 0;
+        font-size: 22px;
+        color: white;
+    }
+    
+    
+    #emails{
+        padding-right: 0;
+        height:3vh ;
+      
+    }
+    #subs{
+        margin-right: 0;
+        height: 3vh;
+        width:100px; 
+    }
+    
+}
+@media only screen and (max-device-width: 348px) and (min-device-width: 100px){
+    .wwd {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #F4F4F4;
+        justify-content: flex-start;
+        align-content: flex-start;
+        height: auto;
+        padding-top: 1vh;
+        padding-bottom: 5vh;
+        padding-right: 9vw;
+        padding-left: 9vw;
+       
+        
+    }
+    
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 30vw; 
+        padding-top: 1vh;
+    }
+    
+    .about div {
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        margin-right: 1vw;
+        margin-left: 1vw;
+        
+    }
+    .about h3 {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        text-align: center;
+        
+    }
+     .lorem {
+        height: auto;
+    }
+}
 
 
