@@ -1,330 +1,74 @@
-*{
-    margin: 0;
-}
-
-body{
-    font-family: Arial;
-}
-.WebDesign {
-    border-bottom: 2px solid rgb(169, 80, 139);
-    height: 16vh;
+section {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #35424A;
-    flex-wrap: wrap;
-    
+    justify-content: center;
+    border: 6px solid red;
 }
 
-#clarus{
-    
-    margin-left: 10vw;
-    font-size: 31px;
-    color: white;
-    font-weight: bolder;
-    
-}
-
-#clarus span{
-    color: #a9508b;
-    font-weight: bold;
-}
-#adress  {
-    
-    margin-right: 9vw;
-}
-#adress #check{
-    color: #a9508b;
-    font-weight: bold;
-}
-#adress a  {
-    margin-right: 2vw;
-    font-size: 17px;
-    color: white;
-    text-decoration: none;
-}
-#adress a:hover{
-    color: #cccccc;
-    font-weight: bold;
-}
-#adress #check:hover{
-    color: #cccccc;
-    font-weight: bold;
-}
-
-.background {
-    height: 45vh;
-    background-image: url(./img/showcase.jpg);
-    text-align:center ;
-    color: #ffffff;
+.information {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 7vh;
-    padding-bottom: 12vh;
-    
-
-}
-.background h1 {
-    font-size: 54px;
-    margin-bottom: 4vh;
-
-}
-.background p {
-    font-size: 20px;
-    padding-right: 10vw;
-    padding-left: 10vw;
-
+    border: 4px solid blue;
 }
 
-.subscribe {
-    height: 16vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #35424A;
-    
+#email ,#phone ,#fullname,#adres,#city{
+    margin-bottom:3vh;
+    margin-top: 1vh;
+    width: 26vw;
+    height: 3vh;
+    border-radius: 4px;
+    padding-left: 2vw;
 }
 
-#newsletter{
-    
-    margin-left: 11vw;
-    font-size: 22px;
-    color: white;
-    font-weight: bolder;
-    
-}
-
-
-#emails{
-    
-    padding-right: 6vw;
-    height:5vh ;
-  
-}
-#subs{
-    margin-right: 10vw;
-    height: 6vh;
-    width: auto;
-    text-align: center;
-    background:  #a9508b;
-    color: #ffffff;
-    
-}
-
-.wwd {
-    display: flex;
-    background-color: #F4F4F4;
-    justify-content: center;
-    height: auto;
-    padding-top: 1vh;
-    padding-bottom: 5vh;
-    padding-right: 9vw;
-    padding-left: 9vw;
-   
-    
-}
-
-.about {
+.allproduct{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 30vw; 
-    padding-top: 1vh;
+    border: 4px solid green;
+    height: 65vh;
+    background-color: #EEEEEE;
+    padding: 0 2vw ;
 }
 
-.about div {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    margin-right: 2vw;
+.vintage{
+    display: flex;
+    justify-content: flex-start;
+    border: 3px solid tomato;
+    margin-top: 3vh;
+}
+.levi{
+    display: flex;
+    justify-content: flex-start;
+    border: 3px solid teal;
+    margin-top: 4vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid crimson;
     margin-left: 2vw;
-    
-}
-.about h3 {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    text-align: center;
-    
-}
- .lorem {
-    text-align: center;
-    height: auto;
 }
 
-
-footer{
-    height: 10vh;
-    border-top: 3px solid purple;
-    text-align: center;
-    padding-top: 7vh;
-    padding-bottom: 5vh;
-    background-color: #FFFAF0;
+img {
+    width: 7vw;
+    border-radius: 10px;
 }
 
-@media only screen and (max-device-width: 766px) and (min-device-width: 741px){    
-    .subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #35424A;
+.transport1{
+   align-content: flex-end;
+   border: 2px solid slateblue;
+   margin-top: 7vh;
 }
-#newsletter{
-    margin-left: 0;
-    font-size: 22px;
-    color: white;
+.transport2{
+   align-content: flex-end;
+   border: 2px solid slateblue;
 }
-
-
-#emails{
-    padding-right: 0;
-    height:5vh ;
-  
-}
-#subs{
-    margin-right: 0;
-    height: 6vh;
-    width:100px;
-    background:  #a9508b;
-    color: #ffffff;
+.fas{
     
-}
-}
-@media only screen and (max-device-width: 741px) and (min-device-width: 364px){
-    .WebDesign {
-        border-bottom: 2px solid rgb(169, 80, 139);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;  
-    }
-    #clarus{
-        margin-left: 0;        
-    }
-    #adress  {
-        margin-right: 0;
-    }
-    .background h1 {
-        font-size: 38px;
-    }
-    .background p {
-        font-size: 14px;
-    }
-    .subscribe {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #35424A;
-    }
-    
-    #newsletter{
-        margin-left: 0;
-        font-size: 22px;
-        color: white;
-    }
-    
-    
-    #emails{
-        padding-right: 0;
-        height:5vh ;
-      
-    }
-    #subs{
-        margin-right: 0;
-        height: 6vh;
-        width:100px;
-
-        
-    }
+    position:relative;
+    right: 28vw;
 
 }
-@media only screen and (max-device-width: 363px) and (min-device-width: 100px){
-    .WebDesign {
-        border-bottom: 2px solid rgb(169, 80, 139);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;  
-    }
-    #clarus{
-        margin-left: 0; 
-        font-size: 20px;       
-    }
-    #adress  {
-        margin-right: 0;
-        font-size: 12px;
-    }
-    .background h1 {
-        font-size: 30px;
-    }
-    .background p {
-        font-size: 14px;
-    }
-    .subscribe {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        background-color: #35424A;
-    }
-    
-    #newsletter{
-        margin-left: 0;
-        font-size: 22px;
-        color: white;
-    }
-    
-    
-    #emails{
-        padding-right: 0;
-        height:3vh ;
-      
-    }
-    #subs{
-        margin-right: 0;
-        height: 3vh;
-        width:100px; 
-    }
-    
+@font-face{
+    font-family: Mon;
+    src: url('FONTS/Montserrat-Regular.ttf');
 }
-@media only screen and (max-device-width: 348px) and (min-device-width: 100px){
-    .wwd {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #F4F4F4;
-        justify-content: flex-start;
-        align-content: flex-start;
-        height: auto;
-        padding-top: 1vh;
-        padding-bottom: 5vh;
-        padding-right: 9vw;
-        padding-left: 9vw;
-       
-        
-    }
-    
-    .about {
-        display: flex;
-        flex-direction: column;
-        width: 30vw; 
-        padding-top: 1vh;
-    }
-    
-    .about div {
-        margin-top: 1vh;
-        margin-bottom: 1vh;
-        margin-right: 1vw;
-        margin-left: 1vw;
-        
-    }
-    .about h3 {
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        text-align: center;
-        
-    }
-     .lorem {
-        height: auto;
-    }
-}
-
-

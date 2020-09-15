@@ -1,63 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HOME</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/5c7edfd842.js" crossorigin="anonymous"></script>
+</head>
+<body>
     <header>
-      <nav class="WebDesign">
-        <div id="clarus"> <span>Clarusway</span> Web Design</div>
-        <div id="adress">
-          <a id="check" href="#">HOME</a>
-          <a  href="./about.html">ABOUT</a>
-          <a  href="./service.html">SERVICES</a>
-        </div>
-      </nav>
-      <div class="background">
-        <h1>Professional Web Design</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
-      </div>
-      <nav class="subscribe">
-        <div id="newsletter">Subscribe To Our Newsletter</div>
-        <div class="email">
-          <input type="email" name="" id="emails" placeholder="Enter Email..."/>
-          <button type="submit" id="subs">Subscribe</button>
-        </div>
-      </nav>
+        <h1 style="text-align: center;">Checkout</h1>
     </header>
-
-    <main>
-      <section class="wwd">
-        <div class="about">
-              <div id="html"><img src="./img/logo_html.png" alt="" width="100" height="100"></div>
-              <h3>HTML Markup</h3>
-              <div class="lorem" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies </div>
-        </div>
-
-          <div class="about">
-                <div id="css"><img src="./img/logo_css.png" alt="" width="100" height="100"></div>
-                <h3>CSS3 Styling</h3>
-                <div class="lorem" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies </div>
+    <section>
+        <div class="information">
+            <div class="contact">
+                <h3>Contact information</h3>
+                <div>
+                    <label for="email" id="email-label">Email</label><br />
+                    
+                    <input type="email" name="mail" id="email" placeholder="Enter your email..." required />
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                    <label for="phone" id="phone-label">Phone</label><br />
+                    
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone..." required>
+                    <i class="fas fa-phone"></i>
+                </div>
             </div>
-            
-            
-            <div class="about">
-                  <div id="graph"><img src="./img/logo_brush.png" alt="" width="100" height="100"></div>
-                  <h3>Graphic Design</h3>
-                  <div class="lorem" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</div>
-              </div>
-        </div>
-      </section>
-    
-   
-</main>
+            <div class="address">
+                <h3>Shipping address</h3>
+                <div>
+                    <label for="fullname" id="fullname-label">Full name</label><br />
+                    
+                    <input type="text" name="fullname" id="fullname" placeholder="Enter your Full name..">
+                    <i class="fas fa-user-alt"></i>
+                </div>
+                <div>
+                    <label for="adres" id="adres-label">Address</label><br />
+                    
+                    <input type="text" name="adres" id="adres" placeholder="Enter your address..">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div>
+                    <label for="city" id="city-label">City</label><br />
+                    
+                    <input type="text" name="city" id="city" placeholder="Enter your city..">
+                    <i class="fas fa-city"></i>
+                </div>
+                <div>
+                    <label for="country">Country</label><br>
+                    
+                        <select id="country" name="country">
+                            <option value="Turkey" selected>Turkey</option>
+                            <option value="Germany">Germany</option>
+                            <option value="USA">USA</option>
+                            <option value="Spain">Spain</option>
+                        </select>
+                        
+                    <!-- <label for="postcode">PostCode</label><br> -->
+                    <input type="number" name="postcode" id="postcode" placeholder="Enter your postal code..">
+                    <!-- <i class="fas fa-globe-americas"></i> -->
+                    <i class="fas fa-mail-bulk"></i>
+                </div>
 
-    <footer>
-        <p>Clarusway Web Design, Copyright &copy; 2020</<p><br/>
-             <a href="http://www.clarusway.com"><img src="https://clarusway.com/wp-content/uploads/2020/06/clarusway_logo.png" width="200" height="40" /></a>
-     </footer>
-  </body>
+            </div>
+        </div>
+
+        <div class="allproduct">
+            <div class="vintage">
+                <img src="./IMG/photo1.png" alt="">
+                <div class="text">
+                    <h4>Vintage Backbag</h4>
+                    <div><span id="color">$54.99</span><span id="height"><s>   $94.99</s></span></div>
+                    <div class="plusandminus">
+                        <button type="submit">-</button>
+                        <span>1</span>
+                        <button type="submit">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="levi">
+                <img src="./IMG/photo2.png" alt="">
+                <div class="text">
+                    <h4>Levi Shoes</h4>
+                    <div><span id="color">$74.99</span><span id="height"><s>   $124.99</s></span></div>
+                    <div class="plusandminus">
+                        <button type="submit">-</button>
+                        <span>1</span>
+                        <button type="submit">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="transport1">Shipping <span>$19</span></div>
+            <div class="transport2">Total <span>$148.98</span></div>
+
+        </div>
+    </section>
+</body>
 </html>
