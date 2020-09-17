@@ -309,13 +309,13 @@ input{
     padding-left:7vw;
 }
 i{
-    top: 3.5vh;
+    top: 2.5vh;
     left: 1.3vw;
     
 }
 }
 
-@media (max-width: 360px){
+@media (max-width: 390px){
     input{
         width: 275px;
     }
@@ -329,5 +329,14 @@ i{
         padding: 15px 25px;
         width: 100px;
         font-size: 0.8rem;   
+    }
+    .icon #country-lenght{
+        width: auto;
+        padding-left:7vw;
+    }
+    i{
+        top: 2.5vh;
+        left: 1.3vw;
+        
     }
 }
