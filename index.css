@@ -304,6 +304,10 @@ input{
 .country{
     margin-bottom: 10px;
 }
+.icon #country-lenght{
+    width: 60%;
+    padding-left:10vw;
+}
 }
 
 @media (max-width: 360px){
