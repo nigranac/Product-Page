@@ -336,7 +336,30 @@ i{
     }
     i{
         top: 2.5vh;
-        left: 1.3vw;
+        left: 1.8vw;
         
+    }
+    .fa-plus, .fa-minus{
+        opacity: 1;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background:  #e0e0e0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5px;
+        border: none;
+    } 
+    
+    .fa-plus{
+        position: absolute;
+        top: 5px;
+        left: 75px;
+    }
+    
+    .fa-minus{
+        position: absolute;
+        top: 5px;
+        left: 10px;
     }
 }
