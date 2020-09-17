@@ -305,8 +305,13 @@ input{
     margin-bottom: 10px;
 }
 .icon #country-lenght{
-    width: 40%;
-    padding-left:13vw;
+    width: auto;
+    padding-left:7vw;
+}
+i{
+    top: 3.5vh;
+    left: 1.3vw;
+    
 }
 }
 
